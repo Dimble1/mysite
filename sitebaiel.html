@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас — Reklama_kyrgysztann1</title>
+  <!-- Подключение иконок (рабочая версия) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f0f0f0, #e0ffe5);
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 8px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      animation: slideUp 1s ease;
+    }
+
+    h2 {
+      color: #4CAF50;
+      margin-bottom: 15px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .social-links {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .social-links a {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      padding: 12px 18px;
+      background: #f5f5f5;
+      border-radius: 10px;
+      transition: transform 0.3s ease, background 0.3s ease;
+      color: #333;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    .social-links a i {
+      font-size: 1.3rem;
+    }
+
+    .social-links a:hover {
+      background: #4CAF50;
+      color: white;
+      transform: translateY(-5px);
+    }
+
+    /* Кнопка WhatsApp */
+    .whatsapp-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 30px;
+      padding: 14px 24px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: white;
+      background: #25D366;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.3s ease;
+    }
+
+    .whatsapp-btn i {
+      font-size: 1.4rem;
+    }
+
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+      transform: scale(1.05);
+    }
+
+    /* Анимации */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Адаптивность */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      .container {
+        margin: 10px;
+        padding: 15px;
+      }
+      .social-links a {
+        font-size: 0.95rem;
+        padding: 10px 15px;
+      }
+      .whatsapp-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Reklama_kyrgysztann1</h1>
+    <p>Рекламное агентство</p>
+  </header>
+
+  <div class="container">
+    <h2>О нас</h2>
+    <p>
+      Мы — рекламное агентство, которое помогает продавцам находить клиентов
+      через современные цифровые каналы.
+      Продвигаем, создаём спрос, усиливаем продажи.
+    </p>
+
+    <h2>Наши соцсети</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/reklama_kyrgyzstann1?igsh=OG14ajJhOXdja2Fq" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram (аккаунт 1)
+      </a>
+      <a href="https://www.instagram.com/reklama.kyrgyzstann1?igsh=dWc2aGlzbDZ4bmdp" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram (аккаунт 2)
+      </a>
+      <a href="https://www.tiktok.com/@reklama.kyrgyzstann1?_t=ZS-8u6RXaTWWhE&_r=1" target="_blank">
+        <i class="fab fa-tiktok"></i> TikTok
+      </a>
+    </div>
+
+    <a class="whatsapp-btn" href="https://wa.me/996700115233" target="_blank">
+      <i class="fab fa-whatsapp"></i> Связаться в WhatsApp
+    </a>
+  </div>
+</body>
+</html>
